@@ -1,0 +1,9 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+W: Failed to fetch http://http.kali.org/kali/dists/kali-rolling/InRelease  Temporary failure resolving 'http.kali.org'
+W: Failed to fetch https://brave-browser-apt-release.s3.brave.com/dists/stable/InRelease  Temporary failure resolving 'brave-browser-apt-release.s3.brave.com'
+W: Failed to fetch https://dl.google.com/linux/chrome/deb/dists/stable/InRelease  Temporary failure resolving 'dl.google.com'
+W: Failed to fetch https://download.sublimetext.com/apt/stable/InRelease  Temporary failure resolving 'download.sublimetext.com'
+W: Failed to fetch http://packages.microsoft.com/repos/code/dists/stable/InRelease  Temporary failure resolving 'packages.microsoft.com'
+W: Some index files failed to download. They have been ignored, or old ones used instead.

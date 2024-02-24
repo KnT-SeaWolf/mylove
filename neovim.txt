@@ -1,0 +1,44 @@
+
+
+sudo apt update
+
+
+#Install the software-properties-common package:
+
+sudo apt install software-properties-common
+
+sudo apt install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip
+
+
+git clone https://github.com/neovim/neovim.git
+
+cd neovim
+
+make CMAKE_BUILD_TYPE=Release
+sudo make install
+
+
+install_neovim_debian() {
+    sudo apt update
+    sudo apt install neovim
+    sudo apt install software-properties-common
+
+	sudo apt install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip
+
+
+	git clone https://github.com/neovim/neovim.git
+
+	cd neovim
+	make CMAKE_BUILD_TYPE=Release
+	sudo make install
+
+
+
+
+}
+
+
+
+#lazyvim install 
+
+git clone https://github.com/lazylife/lazyvim.git

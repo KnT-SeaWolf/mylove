@@ -1,0 +1,29 @@
+Ign:1 http://http.kali.org/kali kali-rolling InRelease
+Ign:2 https://brave-browser-apt-release.s3.brave.com stable InRelease
+Ign:3 https://dl.google.com/linux/chrome/deb stable InRelease
+Ign:4 https://download.sublimetext.com apt/stable/ InRelease
+Ign:5 http://packages.microsoft.com/repos/code stable InRelease
+Ign:1 http://http.kali.org/kali kali-rolling InRelease
+Ign:2 https://brave-browser-apt-release.s3.brave.com stable InRelease
+Ign:4 https://download.sublimetext.com apt/stable/ InRelease
+Ign:5 http://packages.microsoft.com/repos/code stable InRelease
+Ign:3 https://dl.google.com/linux/chrome/deb stable InRelease
+Ign:1 http://http.kali.org/kali kali-rolling InRelease
+Ign:3 https://dl.google.com/linux/chrome/deb stable InRelease
+Ign:4 https://download.sublimetext.com apt/stable/ InRelease
+Ign:5 http://packages.microsoft.com/repos/code stable InRelease
+Ign:2 https://brave-browser-apt-release.s3.brave.com stable InRelease
+Err:1 http://http.kali.org/kali kali-rolling InRelease
+  Temporary failure resolving 'http.kali.org'
+Err:4 https://download.sublimetext.com apt/stable/ InRelease
+  Temporary failure resolving 'download.sublimetext.com'
+Err:5 http://packages.microsoft.com/repos/code stable InRelease
+  Temporary failure resolving 'packages.microsoft.com'
+Err:2 https://brave-browser-apt-release.s3.brave.com stable InRelease
+  Temporary failure resolving 'brave-browser-apt-release.s3.brave.com'
+Err:3 https://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Reading package lists...
+Building dependency tree...
+Reading state information...
+104 packages can be upgraded. Run 'apt list --upgradable' to see them.
